@@ -14,6 +14,11 @@ public class StudentController {
     @Autowired
     private StudentRepository studentRepository;
 
+    @GetMapping("/")
+    public String home() {
+        return "Backend is running!";
+    }
+}
     @PostMapping("/student")
     public Student saveStudent(@RequestBody Student student) {
         return studentRepository.save(student);
