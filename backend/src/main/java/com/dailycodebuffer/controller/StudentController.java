@@ -18,7 +18,7 @@ public class StudentController {
     public String home() {
         return "Backend is running!";
     }
-}
+
     @PostMapping("/student")
     public Student saveStudent(@RequestBody Student student) {
         return studentRepository.save(student);
