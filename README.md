@@ -49,7 +49,7 @@ npm start
 ```bash
 cd frontend
 
-# Build the Docker image
+# Build the Docker image if not already built otherwise we can pull from the docker hub also 
 docker build -t prar1hana/student_repo_frontend:v1.0 .
 # or
 docker build -t student-frontend .
@@ -77,7 +77,7 @@ mvn spring-boot:run
 ```bash
 cd backend
 
-# Build the Docker image
+# Build the Docker image if not already built otherwise we can pull from the docker hub also 
 docker build -t prar1hana/student_repo_backend:v1.0 .
 # or
 docker build -t student-backend .
