@@ -20,21 +20,11 @@ cd Student_Repo
 ---
 
 ### If you want to use Docker & Rancher Desktop
-
-- Rancher Desktop is used to run the Docker daemon.
-- Make sure Docker is enabled in Rancher Desktop settings.
-- Kubernetes is installed but not configured — ignore it for now.
-
----
-
-### DockerHub Login
-
-Before pulling/pushing private images:
-
+- Open Racncher Desktop App to start Docker Daemon
+- DockerHub Login
 ```bash
 docker login
 ```
-
 - **Username:** `prar1hana`  
 - **Password:** *(check WhatsApp)*  
 - [DockerHub Repo](https://hub.docker.com/repositories/prar1hana)
