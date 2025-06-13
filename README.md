@@ -13,7 +13,7 @@ A full-stack web application for managing student data.
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/prar1hana/Student_Repo.git
+git clone https://github.com/prar1hana/Student_Repo.git <folder-name>
 cd Student_Repo
 ```
 
