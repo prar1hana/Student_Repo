@@ -8,16 +8,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+
 @CrossOrigin(origins = "http://localhost:3000")
 public class StudentController {
 
     @Autowired
     private StudentRepository studentRepository;
-
-    @GetMapping("/")
-    public String home() {
-        return "Backend is running!";
-    }
 
     @PostMapping("/student")
     public Student saveStudent(@RequestBody Student student) {
@@ -44,7 +40,5 @@ public class StudentController {
     public String updateStudent(@PathVariable("id") String studentId, @RequestBody Student student) {
         return studentRepository.updateStudent(studentId, student);
     }
-
-
 
 }
