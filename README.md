@@ -13,12 +13,11 @@ A full-stack web application for managing student data.
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/prar1hana/Student_Repo.git <folder-name>
+open the terminal
+go to the destination where u want the repo
+git clone https://github.com/prar1hana/Student_Repo.git <folder-name>   //it will create a new folder which will be the Student_Repo
 cd Student_Repo
 code .
-
-
-or create a folder and inside it run git clone https://github.com/prar1hana/Student_Repo.git 
 ```
 
 ---
