@@ -15,6 +15,10 @@ A full-stack web application for managing student data.
 ```bash
 git clone https://github.com/prar1hana/Student_Repo.git <folder-name>
 cd Student_Repo
+code .
+
+
+or create a folder and inside it run git clone https://github.com/prar1hana/Student_Repo.git 
 ```
 
 ---
