@@ -9,7 +9,7 @@ A full-stack web application for managing student data.
 -  Rancher Desktop to run Docker daemon (Kubernetes currently not configured)  
 
 ---
-#To run it locally follow the following steps
+# To run it locally follow the following steps
 ## Clone the Repository
 
 ```bash
@@ -19,7 +19,7 @@ cd Student_Repo
 
 ---
 
-## If you want to use Docker & Rancher Desktop
+### If you want to use Docker & Rancher Desktop
 
 - Rancher Desktop is used to run the Docker daemon.
 - Make sure Docker is enabled in Rancher Desktop settings.
@@ -27,7 +27,7 @@ cd Student_Repo
 
 ---
 
-## DockerHub Login
+### DockerHub Login
 
 Before pulling/pushing private images:
 
